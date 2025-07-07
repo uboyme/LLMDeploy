@@ -1,0 +1,2 @@
+后台运行指令：uvicorn open_webui.main:app --host 0.0.0.0 --port 8080 --reload
+前端运行指令：npm run dev
