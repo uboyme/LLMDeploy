@@ -1,3 +1,10 @@
+@echo off
+set CORS_ALLOW_ORIGIN=http://localhost:5173;http://localhost:8080
+
+
+
+
+
 :: This method is not recommended, and we recommend you use the `start.sh` file with WSL instead.
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION

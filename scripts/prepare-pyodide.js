@@ -1,3 +1,11 @@
+import fs from 'fs';
+
+if (fs.existsSync('static/pyodide')) {
+	console.log('Pyodide is already set up. Skipping fetch.');
+	process.exit(0);
+}
+
+
 const packages = [
 	'micropip',
 	'packaging',
