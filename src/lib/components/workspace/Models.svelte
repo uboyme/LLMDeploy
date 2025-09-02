@@ -547,7 +547,7 @@
 	{#if $config?.features.enable_community_sharing}
 		<div class=" my-16">
 			<div class=" text-xl font-medium mb-1 line-clamp-1">
-				{$i18n.t('Made by SysML WebUI Community')}
+				{$i18n.t('Made by SysML智能化生成工具 Community')}
 			</div>
 
 			<a

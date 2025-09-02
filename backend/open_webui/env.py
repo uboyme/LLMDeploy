@@ -106,9 +106,9 @@ for source in log_sources:
 
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "SysML WebUI")
-if WEBUI_NAME != "SysML WebUI":
-    WEBUI_NAME += " (SysML WebUI)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "HIT-SmartSysML")
+if WEBUI_NAME != "HIT-SmartSysML":
+    WEBUI_NAME += " (HIT-SmartSysML)"
 
 WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
 

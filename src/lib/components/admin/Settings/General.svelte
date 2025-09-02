@@ -179,13 +179,13 @@
 									{$i18n.t('Help')}
 								</div>
 								<div class=" text-xs text-gray-500">
-									{$i18n.t('Discover how to use Open WebUI and seek support from the community.')}
+									{$i18n.t('Discover how to use HIT-SmartSysML and seek support from the community.')}
 								</div>
 							</div>
 
 							<a
 								class="flex-shrink-0 text-xs font-medium underline"
-								href="https://docs.openwebui.com/"
+								href="https://www.hit.edu.cn/"
 								target="_blank"
 							>
 								{$i18n.t('Documentation')}
@@ -194,25 +194,19 @@
 
 						<div class="mt-1">
 							<div class="flex space-x-1">
-								<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
-									<img
-										alt="Discord"
-										src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
-									/>
+								<!-- 官网 -->
+								<a href="https://www.hit.edu.cn/" target="_blank">
+								<img
+      			  				  alt="官网"
+      			  				  src="https://img.shields.io/badge/HIT--SmartSysML-官网-green?logo=googlechrome&logoColor=white"
+    			  				/>
 								</a>
-
-								<a href="https://twitter.com/OpenWebUI" target="_blank">
-									<img
-										alt="X (formerly Twitter) Follow"
-										src="https://img.shields.io/twitter/follow/OpenWebUI"
-									/>
-								</a>
-
-								<a href="https://github.com/open-webui/open-webui" target="_blank">
-									<img
-										alt="Github Repo"
-										src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
-									/>
+								<!-- GitHub -->
+								<a href="https://github.com/uboyme/LLMDeploy" target="_blank">
+								<img
+					  			  alt="Github Repo"
+					     		  src="https://img.shields.io/github/stars/uboyme/LLMDeploy?style=social&label=Star us on Github"
+								/>
 								</a>
 							</div>
 						</div>

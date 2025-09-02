@@ -117,24 +117,18 @@
 			</div>
 		{:else}
 			<div class="flex space-x-1">
-				<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
-					<img
-						alt="Discord"
-						src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
-					/>
+				<!-- 官网 -->
+				<a href="https://www.hit.edu.cn/" target="_blank">
+				<img
+      			  alt="官网"
+      			  src="https://img.shields.io/badge/HIT--SmartSysML-官网-green?logo=googlechrome&logoColor=white"
+    			  />
 				</a>
-
-				<a href="https://twitter.com/OpenWebUI" target="_blank">
+				<!-- GitHub -->
+				<a href="https://github.com/uboyme/LLMDeploy" target="_blank">
 					<img
-						alt="X (formerly Twitter) Follow"
-						src="https://img.shields.io/twitter/follow/OpenWebUI"
-					/>
-				</a>
-
-				<a href="https://github.com/open-webui/open-webui" target="_blank">
-					<img
-						alt="Github Repo"
-						src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
+					  alt="Github Repo"
+					  src="https://img.shields.io/github/stars/uboyme/LLMDeploy?style=social&label=Star us on Github"
 					/>
 				</a>
 			</div>
@@ -149,9 +143,9 @@
 		<div>
 			<pre
 				class="text-xs text-gray-400 dark:text-gray-500">Copyright (c) {new Date().getFullYear()} <a
-					href="https://openwebui.com"
+					href="https://www.hit.edu.cn/"
 					target="_blank"
-					class="underline">Open WebUI (Timothy Jaeryang Baek)</a
+					class="underline">HIT-SmartSysML(HIT)</a
 				>
 All rights reserved.
 
@@ -193,7 +187,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
 				href="https://github.com/tjbck"
-				target="_blank">Timothy J. Baek</a
+				target="_blank">HIT</a
 			>
 		</div>
 	</div>

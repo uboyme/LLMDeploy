@@ -1,3 +1,4 @@
+{#if false}
 <script lang="ts">
 	import Fuse from 'fuse.js';
 	import Bolt from '$lib/components/icons/Bolt.svelte';
@@ -140,3 +141,4 @@
 		animation-timing-function: ease;
 	}
 </style>
+{/if}
